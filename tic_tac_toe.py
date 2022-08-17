@@ -43,7 +43,7 @@ def place(symbol):
         else:
             print('Invalid input. Please enter again')
     board[row-1][col-1]=symbol
-
+#here play function is for switching between players
 def play():
     for turn in range(9):
         if turn%2 == 0:
